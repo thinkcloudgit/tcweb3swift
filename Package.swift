@@ -17,7 +17,7 @@ let package = Package(
         
     ],
     targets: [
-//         .target(name: "csecp256k1", path: "./Sources/secp256k1"),
+        .target(name: "csecp256k1", path: "./Sources/secp256k1"),
         .target(
             name: "Web3Core",
             dependencies: ["BigInt", "csecp256k1", "CryptoSwift"]
